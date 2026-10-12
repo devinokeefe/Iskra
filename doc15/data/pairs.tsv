@@ -1,0 +1,41 @@
+# Number pairs in document no. 15 of «Переписка В. И. Ленина и редакции газеты „Искра“ с
+# социал-демократическими организациями в России. 1900–1903 гг.», vol. 1 (Moscow, 1969), p. 50, note ****.
+# n: place in the printed row. pair: as printed, line/letter; 2/... and 9/... are printed without a
+#   second number.
+# compilers: the letter that the reading printed by the compilers of the edition («Москва, Бойни,
+#   ветеринар[ный] врач ...») requires, where the reading fixes it.
+n	pair	compilers
+1	3/5	м
+2	4/6	о
+3	5/2	с
+4	5/8	к
+5	3/1	в
+6	2/...	а
+7	13/2	б
+8	12/1	о
+9	10/2	й
+10	9/1	н
+11	4/1	и
+12	2/2	в
+13	9/2	е
+14	3/3	т
+15	11/4	е
+16	4/3	р
+17	2/3	и
+18	1/7	н
+19	2/5	а
+20	9/...	р
+21	6/10
+22	10/2
+23	2/...
+24	4/3
+25	7/5
+26	1/6
+27	3/2
+28	4/1
+29	1/2
+30	4/9
+31	6/4
+32	2/4
+33	7/2
+34	8/3

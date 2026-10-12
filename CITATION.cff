@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use these readings, transcriptions or scripts, please cite this repository."
+title: "An address and two key poems: the Iskra cipher correspondence, 1901–1902"
+type: dataset
+authors:
+  - family-names: "O'Keefe"
+    given-names: "Devin"
+    email: "okeefede@tcd.ie"
+version: "1.0.0"
+date-released: "2026-10-12"
+# The licence named here is that of the pages, the transcriptions in the data/ folders (except
+# bauman/data/sinelnikov_square.txt, which neither licence covers) and the records in runs/.  The scripts,
+# the workflow and the configuration files are under MIT (LICENSE); README.md says which files are which.
+# (A list of licences here would mean a choice between them.)
+license: CC-BY-4.0
+repository-code: "https://github.com/devinokeefe/Iskra"
+keywords:
+  - "Iskra"
+  - "cipher"
+  - "Russian Social Democratic Labour Party"
+  - "Lenin"
+  - "Nikolai Bauman"
+  - "history of cryptography"

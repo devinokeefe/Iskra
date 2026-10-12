@@ -1,0 +1,311 @@
+== document 449
+ok    the key has 36 printed lines, and the refrain is printed three times as four lines
+ok    the key has no letter ф
+ok    the run at the end has 40 pairs and three tokens in clear (Ф, the dash, 30)
+ok    the run, print count: no pair points outside the key
+ok    the run, print count: all 38 pairs after the first two give the address
+ok    the first two pairs of the run, 10.2 and 2.2, give и and а under both counts
+ok    footnoted names, Lepeshinsky's count: all 38 pairs give the printed names
+ok    the spare pairs in the footnoted names give ъ or point past the end of a line
+ok    the run, Lepeshinsky's count: 19 of 38; got 19 of 38
+ok    footnoted names, print count: 24 of 38; got 24 of 38
+ok    control: the run counted from each of the 35 other printed lines gives at most 8 of 38, from line 18; got 8 from [18]
+ok    no pair reaches the end of the third refrain, so joining it changes nothing (deepest line 22 of 32)
+ok    the two counts part company from line 11, by one line and after the second refrain by two
+ok    the address as quoted is what the closing run gives
+ok    doc449/README.md says: > Якоб Рихтер, Холфорд-сквер 30, Пентонвил, Лондон В. С.
+ok    README.md says: > Якоб Рихтер, Холфорд-сквер 30, Пентонвил, Лондон В. С.
+ok    the table of the name has four rows
+ok    table row 1.6: the line is line 1 counted from the second, letter 6 is the one in brackets, я
+ok    table row 2.5: the line is line 2 counted from the second, letter 5 is the one in brackets, к
+ok    table row 11.4: the line is line 11 counted from the second, letter 4 is the one in brackets, о
+ok    table row 2.3: the line is line 2 counted from the second, letter 3 is the one in brackets, б
+ok    the table takes the pairs of the run that follow the first two and reads the first word of the address
+ok    doc449/README.md says: The table reads the first word pair by pair
+ok    the block of all the pairs prints the run as in the data
+ok    the block of all the pairs prints the letters that the run gives
+ok    doc449/README.md says: The whole run of 40 pairs follows in order
+ok    doc449/README.md says: The 38 pairs after the first two give the address letter for letter.
+ok    doc449/README.md says: Sinelnikov's count of 43 for this passage evidently includes those three.
+ok    doc449/README.md says: the seven names in this letter that Krupskaya deciphered at the time all read correctly: 38 of their 43 pairs give the letters, and the other five are spare
+ok    doc449/README.md says: From line 11 onwards the two counts differ by one line, and after the second refrain by two
+ok    doc449/README.md says: | | the seven names (38 pairs) | the address (38 pairs) |
+ok    doc449/README.md says: | lines as Lepeshinsky counted them | 38 right | 19 right |
+ok    doc449/README.md says: | lines as printed in *Zarya* | 24 right | 38 right |
+ok    doc449/README.md says: The run of pairs has 40, and its first two belong to no word of the address and are not counted.
+ok    doc449/README.md says: As a control it also counts from each of the other 35 printed lines of the hymn as line 1, going on from the first line where the count runs past the last, and the run then gives at most 8 of its 38 letters (from line 18).
+ok    doc449/README.md says: It is a coincidence that both columns have 38 pairs.
+ok    doc449/README.md says: The first two pairs, 10.2 and 2.2, give и and а under either count.
+ok    doc449/README.md says: five in all, which give the hard sign or point past the end of a line
+ok    doc449/README.md says: The Ф, the dash and the 30 are written in clear
+ok    the refrain is printed three times as four short lines, and Lepeshinsky joined the last two
+ok    doc449/README.md says: The refrain is printed as four short lines, and Lepeshinsky took the last two, «Тише впередъ, / Рабочій народъ!», as one.
+ok    doc449/README.md says: the refrain is counted as the four lines that *Zarya* prints
+ok    the pair that the page explains is a pair of the run, and the page counts it from line 2
+ok    doc449/README.md says: | pair | line of the poem (counted from the second) | letter |
+ok    doc449/README.md says: «Пентонвил» has one л, and W.C. is written as the two Russian letters В and С.
+ok    every count of the footnoted names on the three pages is seven (9 places)
+ok    the letters between the board and Leman that the page lists are as many as it says, and so are the three read without naming the key
+47 of 47 checks passed
+
+== Bauman's key
+ok    the poem has 16 lines and each of the first ten has at least ten letters
+ok    Sinelnikov's square as transcribed has ten rows of twelve columns
+ok    the square has no ж, ш or ю; lines 3 and 8 have ж and ш as twelfth letters
+ok    Sinelnikov's twelfth letters for rows 3 and 8 are those of the poem
+ok    9 documents, 33 groups, 562 pairs
+ok    3 pairs printed without a second number, 4 with no letter, 555 compared
+ok    the poem gives the printed letter in 516 of 555 (93.0%); got 516
+ok    Sinelnikov's square: 89 cells filled, 84 the letter of the poem
+ok    the printed pairs use 81 cells of the square; ten of Sinelnikov's 89 are used by none, nine of them right
+ok    rows 3 to 10 of Sinelnikov's square: 69 cells filled, 64 the letter of the poem; rows 1 and 2 are filled and agree
+ok    columns 11 and 12 of Sinelnikov's square: six letters, four of them the poem's
+ok    two cells that the pairs use are empty in Sinelnikov's square: 5/10 and 6/7
+ok    Sinelnikov's square, read with all its twelfth letters, gives 514 of 555; got 514
+ok    the square begun at each other line gives at most 41 of 555; got [15, 21, 31, 9, 17, 30, 24, 41, 41, 34, 3, 20, 29, 11, 4]
+ok    without hard signs: 346; got 346
+ok    six pairs use the twelfth letter; without the exception 510
+ok    seven pairs have a number above thirty, six in the thirties and one in the fifties; four give the printed letter, three in no. 14 and one in no. 24
+ok    11 = 1, 23 = 3 and 35 = 5, and a pair a/12 gives the twelfth letter only in rows 3 and 8
+ok    39 disagreements: 7 in the stretch, 20 single, 2 spelling, 3 in «Марье», 7 in the compilers' readings
+ok    the 39 disagreements are the ones listed in this script, pair for pair
+ok    every disagreement counted as the compilers' is in a reading that data/pairs.tsv gives to the compilers
+ok    the compilers' readings with a disagreement: four, and in one of them («Устинью») it is only cell 10/9
+ok    nine of the 39 disagreements are in readings that data/pairs.tsv gives to the compilers, two of them single pairs, 2/8 in «Покров» (no. 14) and 8/4 in «магазин» (no. 73); got 9
+ok    bauman/README.md says: Two of the twenty single pairs are also in readings made by the compilers, 2/8 in «Покров» (no. 14) and 8/4 in «магазин» (no. 73), so nine of the 39 fall in such readings.
+ok    18 of the 39 disagreements are in no. 200: the 7 of the stretch, 6 more in the first copy and 5 in the second
+ok    bauman/README.md says: No. 200 holds 18 of the 39 disagreements.
+ok    the poem fills 11 empty cells of the square and differs in 5
+ok    cells 7/2, 7/3, 5/7, 4/5, 10/9, 6/7, 5/10: uses agreeing 3 of 4, 1 of 2, 0 of 1, 0 of 0, 0 of 3, 2 of 2, 0 of 1
+ok    cell 4/2 gives л in 11 other places, 3/1 gives к in 18, 5/6 gives п in 17
+ok    no. 14: the pairs printed for «Чапышниной» give чалышкинѣи, 8/2 is the ninth of them, and 8/9 is о
+ok    no. 24: the pairs printed for «Ветровой» give петрово, and 5/19 is в
+ok    every cell of those two readings is the same in Sinelnikov's square as in the poem, in modern spelling
+ok    no. 73: the pairs printed for «Доноди» give долод and cell 10/9
+ok    no. 73: Sinelnikov's square gives доноди for the same pairs
+ok    no. 222: the letters the compilers bracket in «З[и]наида Павло[в]на» are in the pairs
+ok    no. 235: the pairs for «Ляп[унова]» give ляпунов
+ok    data/pairs.tsv gives «Чапышниной», «Ветровой», «Устинью», «Доноди» and «З[и]наида» to the compilers, «Ляп[унова]» to Krupskaya and both copies in no. 200 to Blumenfeld
+ok    Sinelnikov's е and ж in row 2, where the poem has о and ч: the only pair that would use them is one 2/12 in no. 200, where the second copy has 3/12
+ok    19/2 stands where 13/2 gives the letter wanted, in «Полтава» (no. 73)
+ok    8/4 stands where 8/1 gives the letter wanted, in «магазин»
+ok    for the м of «Марковичу», 10/3, the first copy has 10/9 and the second 16/3
+ok    no. 80: four pairs one too high in the second number (6/6, 8/6, 8/7 twice), each one lower giving the letter wanted
+ok    the two of spelling: the key gives лепешинскаго, and the last pair of «Майский листок» gives и for ю
+ok    the poem printed on the page is data/poem.txt, with the signature
+ok    the square printed on the page is the first ten letters of the first ten lines, with ж and ш at 3/12 and 8/12
+ok    cell 7/2: е at the last letter of «на севере» (no. 80) and of «отделение» in both copies (no. 200); а once, in «Марье» (no. 14)
+ok    bauman/README.md says: | 7/2 | ѣ | а | е or ѣ three times, the last letter of «на сѣверѣ» (no. 80) and of «отдѣленіе» in both copies (no. 200); а once, in «Марье» (no. 14) |
+ok    cell 7/3: л in «листок» (no. 24), н in the compilers' «Доноди» (no. 73)
+ok    bauman/README.md says: | 7/3 | л | н | л in «листок» (no. 24); н only in the compilers' «Доноди» (no. 73) |
+ok    cell 5/7: one use, ь in «Марье»
+ok    bauman/README.md says: | 5/7 | л | и | once, in «Марье», where the clear word has ь |
+ok    cell 10/9: no use gives the letter wanted
+ok    bauman/README.md says: | 10/9 | г | и | three times, and г fits none of them (see Limits) |
+ok    cell 6/7: the hard sign at the end of «Меерсон» in both copies (no. 200)
+ok    bauman/README.md says: | 6/7 | ъ | empty | the hard sign of «Меерсонъ» in both copies (no. 200) |
+ok    cell 5/10: one use, in no. 200, where к is wanted
+ok    bauman/README.md says: | 5/10 | у | empty | once, in no. 200, where к is wanted |
+ok    bauman/README.md says: Six of these sixteen cells are used in the letters, and the table gives their uses.
+ok    bauman/README.md says: The square printed in the study has 89 of its hundred cells filled
+ok    bauman/README.md says: Six of the printed pairs use a twelfth letter.
+ok    eight printed pairs have 12 as the second number, and the two outside rows 3 and 8 are 4/12 in no. 73 and 2/12 in no. 200
+ok    bauman/README.md says: Two more pairs have 12 as their second number, 4/12 in no. 73 and 2/12 in no. 200, and are read by the rule of tens as 4/2 and 2/2.
+ok    bauman/README.md says: Numbers above thirty occur seven times in the letters, six in the thirties and one in the fifties, and four of them give the printed letter when read in the same way (33/9, 5/35 and 38/11 in no. 14, 33/2 in no. 24).
+ok    bauman/README.md says: The poem agrees with 84 of the 89 cells of Sinelnikov's square, and with four of the six letters in its columns 11 and 12
+ok    bauman/README.md says: Rows 1 and 2 of the square were used to find the poem, so the test lies in rows 3 to 10, where the poem agrees with 64 of the 69 filled cells.
+ok    bauman/README.md says: prints pairs in this key in nine letters: nos 14, 24, 73, 80, 200, 222, 235, 318 and 336.
+ok    bauman/README.md says: holds all 33 groups, 562 pairs
+ok    bauman/README.md says: | the poem | 516 of 555 (93.0%) |
+ok    bauman/README.md says: | Sinelnikov's square | 514 of 555 |
+ok    bauman/README.md says: | the square begun at each other line of the poem in turn | at most 41 of 555 |
+ok    bauman/README.md says: | the poem without hard signs | 346 of 555 |
+ok    bauman/README.md says: | the poem without the twelfth letters | 510 of 555 |
+ok    bauman/README.md says: Seven of the 562 pairs are not counted: three are printed without their second number (such as «6/...»), and four have no letter in the printed word (three in no. 80, one in «Разоренова» in no. 14).
+ok    bauman/README.md says: including the ж at 2/12
+ok    bauman/README.md says: the sixteen lines are taken as a ring
+ok    bauman/README.md says: The script lists the 39 pairs that do not give the printed letter, and they are of five kinds.
+ok    the stretch is pairs 3 to 9 of the first copy, one after another
+ok    bauman/README.md says: seven in a row near the start of the first copy of the address in no. 200 (pairs 3 to 9)
+ok    bauman/README.md says: twenty single pairs, several of them one figure away
+ok    bauman/README.md says: 19/2 for 13/2 in «Полтава», 8/4 for 8/1 in «магазин»
+ok    bauman/README.md says: the м of «Марковичу», which is 10/3, the first copy in no. 200 has 10/9 and the second 16/3
+ok    bauman/README.md says: In no. 80 the second number is one too high four times (6/6, 8/6 and 8/7 twice, where 6/5, 8/5 and 8/6 give the letters wanted)
+ok    bauman/README.md says: two of spelling: the cipher has «Лепешинскаго» and «получении» where the edition prints «Лепешинского» and «получению»
+ok    bauman/README.md says: three of the five in «Марье» in no. 14 (7/2, 9/4, 5/7)
+ok    the three in «Марье» are among its first five pairs
+ok    bauman/README.md says: seven in four readings made by the compilers, in nos 14, 24 and 73. Three of these readings are discussed [below](#readings-that-the-printed-pairs-do-not-give). In the fourth, «Устинью», the one pair that disagrees is cell 10/9
+ok    bauman/README.md says: The printed pairs use 81 cells of the square. Ten of Sinelnikov's 89 are used by no pair (3/4, 3/10, 4/4, 4/5, 4/7, 4/10, 8/10, 10/4, 10/7 and 10/8)
+ok    bauman/README.md says: Nine of the ten are right, and the tenth is 4/5
+ok    bauman/README.md says: The poem fills the eleven cells left empty in Sinelnikov's square and differs from it in five.
+ok    bauman/README.md says: Sinelnikov's square also has е and ж in columns 11 and 12 of row 2, where the poem has о and ч («ночи»). The only support for them is one 2/12 in the first copy of no. 200, where the second copy has 3/12.
+ok    bauman/README.md says: In three of them the pairs as printed say something else, leaving aside cell 10/9.
+ok    bauman/README.md says: Cell 4/2 is л in eleven other places and 3/1 is к in eighteen.
+ok    bauman/README.md says: Cell 5/6 is п in seventeen other places.
+ok    bauman/README.md says: The pairs 5/3 13/2 4/2 1/6 8/12 3/21 5/5 18/1 8/2 15/5 give ч а л ы ш к и н ѣ и
+ok    bauman/README.md says: «Чалышкиной» if 8/2 is a slip for 8/9, which is о.
+ok    bauman/README.md says: The pairs 5/16 14/3 6/4 8/5 7/6 11/2 6/3 give п е т р о в о
+ok    bauman/README.md says: A 5/19 in the manuscript would give в
+ok    bauman/README.md says: - No. 14, Babushkin's address in Pokrov
+ok    bauman/README.md says: - No. 24, the address for callers in Pskov
+ok    bauman/README.md says: - No. 73, Bauman's address for callers in Moscow
+ok    bauman/README.md says: The last word is 7/1 6/3 7/3 6/5 7/1 10/9, which with the poem is д о л о д г, the г from cell 10/9. Sinelnikov has н at 7/3 and и at 10/9, which are the letters «Доноди» needs
+ok    bauman/README.md says: the seven pairs printed with it give ляпунов
+ok    no. 73: the poem and Sinelnikov's square differ at 7/3 and 10/9 in «Доноди»
+ok    bauman/README.md says: so those two cells of the square probably come from this reading
+ok    the readings listed under those the pairs do not give: the cells of the first 2 are the same in both squares, and the rest differ
+ok    bauman/README.md says: The first two need nothing from the poem, because the cells concerned are the same in Sinelnikov's square.
+ok    bauman/README.md says: The other two, е ж in row 2, are discussed below.
+ok    bauman/README.md says: Nine letters from that correspondence have passages in his cipher
+ok    the letters printed from copies are as many as the page says, and are among the nine
+ok    bauman/README.md says: Four of the nine letters are printed from copies
+ok    bauman/README.md says: at the nine numbers given above
+ok    bauman/README.md says: and the nine letters are those listed there
+ok    the example of the ring: a square begun at that line runs past the last line of the poem and goes on from line 1
+ok    README.md says: The search used only rows 1 and 2 of the square.
+ok    bauman/README.md says: for the openings of rows 1 and 2 of Sinelnikov's square
+ok    10/9 is printed three times: once in no. 200, then as the last of six pairs in «Устинью» and the last pair of «Доноди» in no. 73
+ok    bauman/README.md says: Cell 10/9, г in the poem, fits none of its three uses
+ok    bauman/README.md says: the last of the six pairs that the compilers read «Устинью»
+ok    bauman/README.md says: 7/2, 9/4 and 5/7 stand over а, р and ь, and the poem gives ѣ, ъ and л
+ok    README.md says: Sinelnikov's square has 89 of its cells filled
+ok    README.md says: Of the 69 filled cells of the other eight rows, 64 hold the poem's letter, and the poem supplies the other eleven. Read with the poem, 516 of the 555 pairs in this key that can be compared give the edition's reading (562 are printed)
+ok    README.md says: and in three places the pairs as printed do not give the name that the compilers read.
+ok    README.md says: the pairs from nine letters
+ok    bauman/README.md says: a square, ten lines by ten letters
+ok    README.md says: a square of ten lines by ten letters
+ok    bauman/README.md says: The first ten lines are the rows of the square
+ok    bauman/README.md says: It has sixteen lines and is signed
+ok    bauman/README.md says: For the third row of the table the sixteen lines
+ok    README.md says: sixteen lines signed Л. Медвѣдевъ
+ok    each example of the rule of tens on the page is a number and its remainder: [(11, 1), (23, 3), (35, 5)]
+ok    bauman/README.md says: so 3/12 and 8/12 stand for the real twelfth letters of lines 3 and 8
+ok    bauman/README.md says: е ж in row 3 and у ш in row 8
+ok    cell 10/9 gives the wanted letter at none of its uses
+ok    bauman/README.md says: Cell 10/9, г in the poem, fits none of its three uses: once in no. 200, where
+ok    bauman/README.md says: and twice in no. 73, as the last
+ok    in no. 80 four pairs are one too high in the second number, 8/7 twice
+ok    bauman/README.md says: In no. 80 the second number is one too high four times (6/6, 8/6 and 8/7 twice, where 6/5, 8/5 and 8/6 give the letters wanted)
+ok    bauman/README.md says: In no. 80 the second number of four pairs is one too high.
+ok    bauman/README.md says: and the count of 516 rests on that alignment
+ok    bauman/README.md says: Twice the edition brackets letters that the pairs supply. No. 222 is printed «З[и]наида Павло[в]на»
+ok    bauman/README.md says: In no. 235 the name is printed «Ляп[унова]»
+141 of 141 checks passed
+
+== document 15
+ok    34 pairs, three of them printed without a second number
+ok    every pair points within the first ten letters of one of the first thirteen lines
+ok    the letters printed on the page are the ones the pairs give; got моссв.ыойниветерина.лй.рачъиоделло
+ok    16 of the 18 letters of the compilers' reading that can be tested; got 16 of 18
+ok    the two that differ are pair 4 (с for к) and pair 7 (ы for б)
+ok    for pairs [4, 7] the letter wanted is the next one in the line
+ok    doc15/README.md says: In both the letter wanted is the next one in the line
+ok    the address printed on the page: the letters outside the brackets are those the pairs give, those inside are the compilers' letters for pairs 4, 6 and 7, then «рный в» for pairs 20 to 23
+ok    к stands at 5/9 and 5/3, б at 13/3, а at 2/5, в at 2/2, р at 9/3, н at 9/1, ы at 6/16
+ok    the last eleven pairs give рачъиоделло
+ok    the 25 other lines of the poem taken as line 1: at most 3 of 18, from lines 16 and 20; got 3 from [16, 20]
+ok    the pair read letter/line, from each of the 26 lines: at most 2 of 18; got 2
+ok    without hard signs: 14 of 18, and the last eleven pairs give рачтиоублло; got 14 and рачтиоублло
+ok    three cells that the compilers' reading fixes occur again later: 10/2 as pair 22 (first pair 9, й), 4/3 as pair 24 (pair 16, р) and 4/1 as pair 28 (pair 11, и); got [(22, 10, 2), (24, 4, 3), (28, 4, 1)]
+ok    of the seven pairs of the name, only the first uses a cell that occurs earlier in the passage
+ok    the table has a row for each of the 34 pairs, in order
+ok    table row 1: 1 | 3/5 | м | м
+ok    table row 2: 2 | 4/6 | о | о
+ok    table row 3: 3 | 5/2 | с | с
+ok    table row 4: 4 | 5/8 | с | к | к stands at 5/9 and 5/3
+ok    table row 5: 5 | 3/1 | в | в
+ok    table row 6: 6 | 2/... |  | а | second number not printed; а stands at 2/5
+ok    table row 7: 7 | 13/2 | ы | б | б stands at 13/3
+ok    table row 8: 8 | 12/1 | о | о
+ok    table row 9: 9 | 10/2 | й | й
+ok    table row 10: 10 | 9/1 | н | н
+ok    table row 11: 11 | 4/1 | и | и
+ok    table row 12: 12 | 2/2 | в | в
+ok    table row 13: 13 | 9/2 | е | е
+ok    table row 14: 14 | 3/3 | т | т
+ok    table row 15: 15 | 11/4 | е | е
+ok    table row 16: 16 | 4/3 | р | р
+ok    table row 17: 17 | 2/3 | и | и
+ok    table row 18: 18 | 1/7 | н | н
+ok    table row 19: 19 | 2/5 | а | а
+ok    table row 20: 20 | 9/... |  | р | second number not printed; р stands at 9/3, н at 9/1 and 9/6
+ok    table row 21: 21 | 6/10 | л
+ok    table row 22: 22 | 10/2 | й
+ok    table row 23: 23 | 2/... |  |  | second number not printed; в stands at 2/2
+ok    table row 24: 24 | 4/3 | р
+ok    table row 25: 25 | 7/5 | а
+ok    table row 26: 26 | 1/6 | ч
+ok    table row 27: 27 | 3/2 | ъ
+ok    table row 28: 28 | 4/1 | и
+ok    table row 29: 29 | 1/2 | о
+ok    table row 30: 30 | 4/9 | д
+ok    table row 31: 31 | 6/4 | е
+ok    table row 32: 32 | 2/4 | л
+ok    table row 33: 33 | 7/2 | л
+ok    table row 34: 34 | 8/3 | о
+ok    doc15/README.md says: the 34 printed pairs give, letter by letter
+ok    doc15/README.md says: Of the eighteen letters of the compilers' reading that complete pairs fix, sixteen agree with the key, and where the compilers print dots the key gives seven letters
+ok    doc15/README.md says: Eighteen of those twenty pairs are printed in full and can be tested
+ok    pair 9 is the й of «Бойни» (pairs 7 to 11)
+ok    doc15/README.md says: Three of the cells that it fixes occur again later in the passage. Pair 22 repeats 10/2, the й of «Бойни», and pair 24 repeats 4/3, which is р where «врачъ» would have it if the word begins at pair 23. Pair 28, the first of the name, repeats 4/1, and no other pair of the name uses a cell that occurs earlier in the passage
+ok    pair 28 is the first pair of the name
+ok    doc15/README.md says: Three of the 34 pairs are printed without a second number, and three more give a letter that the address cannot have.
+ok    doc15/README.md says: for pair 4 it also stands at 5/3, so a 3 misread as 8 would explain it as well
+ok    without the soft sign in the count only pair 4 changes, from с to к, and 17 of 18 agree; got [(4, 'с', 'к')] and 17
+ok    doc15/README.md says: line 5 begins «Я скорбь!», and without its ь, 5/8 is к
+ok    doc15/README.md says: Leaving the soft sign out of the count changes no other pair of the 34, so pair 4 is the only test of it, and the agreement would be 17 of 18.
+ok    doc15/README.md says: The third of the three is pair 21, which gives л.
+ok    doc15/README.md says: Pairs 20 to 23 stand where the compilers print «р[ный] в», and two of them are printed incomplete
+ok    doc15/README.md says: The й of pair 22 fits the ending of «ветеринарный».
+ok    pair 20 is printed 9/... and line 9 has р and н; pair 23 is printed 2/... and line 2 has в
+ok    doc15/README.md says: Pair 20 can be р or н, since line 9 has both, and pair 23 can be в
+ok    doc15/README.md says: If pair 21 was 6/16, which is ы, the four pairs read н ы й в
+ok    doc15/README.md says: without the soft sign in the count, that ы would be 6/15
+ok    doc15/README.md says: Pairs 24 to 34 played no part in finding the key. They give «рачъ», which completes «врачъ» with its hard sign, and then «иоделло».
+ok    doc15/README.md says: «Иоделло» is what the last seven pairs give
+ok    pair 24 is 4/3, the cell of pair 16, and pairs 25 to 27 use cells that no earlier pair uses
+ok    doc15/README.md says: Pair 24 is 4/3, the cell of pair 16, which the search had already fixed as р, but the other three letters of «рачъ» come from cells that no earlier pair uses (7/5, 1/6 and 3/2).
+ok    doc15/README.md says: The pairs use only the first ten letters of the first thirteen lines of the poem
+ok    3 of the 24 complete pairs before the name give a letter that the address cannot have, pairs 4, 7 and 21; got 3 of 24, pairs [4, 7, 21]
+ok    doc15/README.md says: Three of the 24 complete pairs before the name give a letter that the address cannot have (pairs 4, 7 and 21). At that rate the chance is about 0.39 that the seven pairs of the name hold no slip
+ok    doc15/README.md says: since the key was chosen to fit 18 of those 24 pairs
+ok    doc15/README.md says: (about 0.54 if the soft sign explains pair 4)
+ok    doc15/README.md says: «рачъ», the end of «врачъ», three of its letters from cells that no earlier pair uses
+ok    the search: blocks of thirteen lines or more, the pair read letter/line reaching eight lines down, and trials = 2 × (start lines + start lines + 5 × blocks)
+ok    doc15/README.md says: in some 6.8 million trials, many of them repeats, no other text gave more than nine of the eighteen
+ok    README.md says: In a strict search over 54,311 blocks of verse from Russian Wikisource it gives
+ok    the complete pairs of the first two words: ten, two of them wrong
+ok    doc15/README.md says: Tan's translation gave 16 of 18
+ok    doc15/README.md says: Taken from any of the other 25 lines, the pairs give at most 3 of the 18 letters (from lines 16 and 20), and read letter/line at most 2. Without hard signs in the count, 14 agree and the last eleven pairs give «рачтиоублло».
+ok    README.md says: it gives 16 of the 18 letters of that reading that complete pairs fix
+ok    README.md says: The pairs that the search did not use complete «врачъ» and then give «Иоделло»
+ok    doc15/README.md says: The size of the search does not account for the sixteen, which support
+ok    doc15/README.md says: The four after the bracketed stretch give «рачъ»
+ok    doc15/README.md says: The seven after them give a word that may be a name
+ok    doc15/README.md says: but four pairs cannot hold the five letters «рный в»
+ok    doc15/README.md says: whether pairs 4, 7 and 21 are slips of the writer or misprints
+ok    doc15/README.md says: Beside pairs 1 to 20 it gives the letter that the compilers' reading requires
+ok    doc15/README.md says: Pair 4 gives с for the к of «Москва», and pair 7 gives ы for the б of «Бойни».
+ok    doc15/README.md says: a small one: three new cells, one of them a hard sign
+ok    the veterinarians of the index are as many as the page says (P. N. Andreyev, L. L. Nikiforov, A. A. Petrov, V. S. Bobrovsky, S. N. Pavlushkov, A. I. Popov)
+ok    doc15/README.md says: None of the six is the name that the seven pairs give
+ok    doc15/README.md says: преждевременно. 34 шифрдроби»
+ok    doc15/README.md says: what the three incomplete pairs and the
+ok    doc15/README.md says: of the eighteen testable pairs gave the compilers' letter
+ok    the record of the search gives 16 of 18 to Tan's translation in the old spelling, 14 to the modern one, and 9 to the best other text
+ok    doc15/README.md says: which `code/corpus_control.py` makes over 91,128 blocks
+ok    doc15/README.md says: Each of the 54,311 blocks of
+ok    doc15/README.md says: That gives 1,565,962 start lines with the pair read line/letter
+ok    doc15/README.md says: Tan's translation gave 16 of 18, and the best of the other texts gave 9.
+ok    doc15/README.md says: modern spelling, without hard signs, gives 14 of the 18.
+ok    doc15/README.md says: so its 17 of 18 cannot be repeated from these files
+ok    doc15/README.md says: with that freedom Tan's translation gave 17 of the 18.
+ok    doc15/README.md says: no other text gave more than nine of the eighteen
+ok    README.md says: over 54,311 blocks of verse from Russian Wikisource
+ok    README.md says: and no other text gives more than 9.
+ok    runs/README.md says: the collection of verse cut from the Wikisource dump (91,128 blocks)
+ok    runs/README.md says: (54,311 blocks of thirteen lines or more, 1,565,962 start lines in the reading's own convention, 9 of 18 at best for any other text)
+ok    runs/README.md says: cuts from it: 91,128 blocks of verse
+113 of 113 checks passed
+
+all three parts passed

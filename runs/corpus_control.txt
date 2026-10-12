@@ -1,0 +1,14 @@
+texts tried: 54311; start lines tried in the reading's own convention: 1565962
+  16 of 18  start line 1    hard signs True  line/letter  Полночною порой вчера к моей постели (Негри; Богораз)/ДО
+  14 of 18  start line 1    hard signs False line/letter  Полночною порой вчера к моей постели (Негри; Богораз)/ДО
+  14 of 18  start line 1    hard signs True  line/letter  Полночною порой вчера к моей постели (Негри; Богораз)
+  14 of 18  start line 1    hard signs False line/letter  Полночною порой вчера к моей постели (Негри; Богораз)
+   9 of 18  start line 9    hard signs True  letter/line  Страница:Бальмонт. Гимны, песни и замыслы древних. 1908.djvu/98
+   9 of 18  start line 9    hard signs False letter/line  Страница:Бальмонт. Гимны, песни и замыслы древних. 1908.djvu/98
+   9 of 18  start line 17   hard signs True  line/letter  Страница:Опыт российской библиографии-2 (Сопиков).djvu/424
+   9 of 18  start line 17   hard signs False line/letter  Страница:Опыт российской библиографии-2 (Сопиков).djvu/424
+   8 of 18  start line 61   hard signs True  letter/line  Евгений Онегин (Пушкин)/ПСС 1977 (СО)/Глава 10
+   8 of 18  start line 61   hard signs False letter/line  Евгений Онегин (Пушкин)/ПСС 1977 (СО)/Глава 10
+   8 of 18  start line 963  hard signs True  line/letter  Юмор (Огарёв)
+   8 of 18  start line 963  hard signs False line/letter  Юмор (Огарёв)
+best text other than the pages of this poem: 9 of 18

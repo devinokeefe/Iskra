@@ -1,0 +1,15 @@
+# Lint and format settings for the Python files:  ruff check .  and  ruff format .
+line-length = 120
+target-version = "py310"
+
+[lint]
+select = ["E", "W", "F", "I", "B", "UP", "SIM", "C4", "PIE", "RET", "PL"]
+ignore = [
+    "PLR2004",  # numeric constants in comparisons
+    "PLR0912", "PLR0913", "PLR0914", "PLR0915", "PLR0917",  # size limits on functions
+    "SIM108",   # if-else blocks are not forced into one line
+    "UP031",    # printf-style formatting is kept
+]
+
+[lint.isort]
+known-first-party = ["decode"]

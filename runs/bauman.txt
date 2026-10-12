@@ -1,0 +1,166 @@
+doc. 14, p. 49 (cipher written above the clear word): Бабуш[кина]
+    key gives  бябуш
+    printed    бабуш
+doc. 14, p. 49 (compilers): Покров
+    key gives  покк?в
+    printed    покров
+doc. 14, p. 49 (compilers): Дворянская
+    key gives  дворянская
+    printed    дворянская
+doc. 14, p. 49 (compilers): Чапышниной, П. Н. Рыбась
+    key gives  чалышкинѣипнрыбас
+    printed    чапышнинойпнрыбас
+doc. 14, p. 50 (cipher written above the clear word): Разоренова
+    key gives  разоренеѣва
+    printed    разорено*ва
+doc. 14, p. 50 (cipher written above the clear word): Марье Ильин[ишне]
+    key gives  мѣълѣилин
+    printed    марьеилин
+doc. 24, p. 58 (cipher written above the clear word): Петербург
+    key gives  петербург
+    printed    петербург
+doc. 24, p. 58 (compilers): Новая Казанская аптека, … Гаухману. Казанская
+    key gives  новаяказанскаяаптекагау?мануказанская
+    printed    новаяказанскаяаптекагаухмануказанская
+doc. 24, p. 59 (cipher written above the clear word): Майский листок готов, … готовы к его получению
+    key gives  маискилистокготовготовыкегополучении
+    printed    маискилистокготовготовыкегополучению
+doc. 24, p. 59 (compilers): Псков, Завеличье, дом Ветровой
+    key gives  псковзавел?чепетрово
+    printed    псковзавеличеветрово
+doc. 24, p. 59 (not stated): Лепешинского
+    key gives  лепешинскаго
+    printed    лепешинского
+doc. 73, p. 112 (Krupskaya): в Псков
+    key gives  въпсков
+    printed    в_псков
+doc. 73, p. 112 (Krupskaya): Полтава
+    key gives  полтаво
+    printed    полтава
+doc. 73, p. 113 (compilers): Арбат, магазин Келер
+    key gives  арбатмагазиъкелер
+    printed    арбатмагазинкелер
+doc. 73, p. 113 (compilers): Устинью Яковлевну Топову
+    key gives  устингяковлевнутопову
+    printed    устинюяковлевнутопову
+doc. 73, p. 113 (compilers): Доноди
+    key gives  долодг
+    printed    доноди
+doc. 80, p. 118 (Krupskaya): на постановку типографии
+    key gives  напостановкутипмгавфии
+    printed    напостановкутипографии
+doc. 80, p. 118 (Krupskaya): земля для дома и средства на постройки
+    key gives  землядлядомаисредстванвпочиостроики
+    printed    землядлядомаисредстванапо***стройки
+doc. 80, p. 119 (Krupskaya): на севере
+    key gives  насѣверѣ
+    printed    насевере
+doc. 80, p. 120 (Krupskaya): чемодан
+    key gives  чемод
+    printed    чемод
+doc. 80, p. 120 (Krupskaya): Федор Гурвич
+    key gives  федоргурвич
+    printed    федоргурвич
+doc. 80, p. 120 (Krupskaya): представителя в Питере
+    key gives  представителявъпитерѣ
+    printed    представителяв_питере
+doc. 200, p. 243 (Blumenfeld): Петербургский Международный Коммерческий Банк, московское отделение, Михаилу Марковичу Меерсон (first copy)
+    key gives  пебзермуѣкиимеъдунароныикомедчрскиибанкмосковсуоеотдѣлениѣмихаилугаркоѣчумеерсонъ
+    printed    петербурскиимеждунароныикомерческиибанкмосковскоеотделениемихаилумарковчумеерсон_
+doc. 200, p. 243 (Blumenfeld): the same address (second copy, «Bis»)
+    key gives  пекербурскиимеждудароныикомерчрскиибанкмосковскоеотдѣлетиѣмихаилуоарковичумеерсонъ
+    printed    петербурскиимеждунароныикомерческиибанкмосковскоеотделениемихаилумарковичумеерсон_
+doc. 200, p. 244 (not stated): И[скра] (three times)
+    key gives  и
+    printed    и
+doc. 222, p. 269 (compilers): З[и]наида Павло[в]на
+    key gives  зинаидапавловна
+    printed    зинаидапавловна
+doc. 222, p. 269 (compilers): Нижний Нов[город]
+    key gives  нижниинов
+    printed    нижниинов
+doc. 235, p. 288 (Krupskaya): Самара, Казан[ь], Нижний
+    key gives  самараказаннижнии
+    printed    самараказаннижнии
+doc. 235, p. 288 (Krupskaya): Ляп[унова]
+    key gives  ляпунов
+    printed    ляпунов
+doc. 318, p. 418 (police department): Димки
+    key gives  димки
+    printed    димки
+doc. 318, p. 418 (police department): Бакун[иным]
+    key gives  бакун
+    printed    бакун
+doc. 318, p. 419 (not stated): комитет[ом]
+    key gives  комитет
+    printed    комитет
+doc. 336, p. 434 (compilers): К[анцель]
+    key gives  к
+    printed    к
+
+documents: 9; groups of pairs: 33; pairs printed: 562 (3 printed without a second number, 4 with no letter to compare)
+pairs compared: 555; the poem gives the printed letter in 516 (93.0%), 4 of them hard signs
+disagreements (39):
+    doc. 14 p. 49  3/9    key я, printed а   single   [Бабуш[кина]]
+    doc. 14 p. 49  2/8    key к, printed р   single   [Покров]
+    doc. 14 p. 49  4/2    key л, printed п   compilers [Чапышниной, П. Н. Рыбась]
+    doc. 14 p. 49  3/21   key к, printed н   compilers [Чапышниной, П. Н. Рыбась]
+    doc. 14 p. 49  8/2    key ѣ, printed о   compilers [Чапышниной, П. Н. Рыбась]
+    doc. 14 p. 50  3/6    key е, printed о   single   [Разоренова]
+    doc. 14 p. 50  7/2    key ѣ, printed а   Марье    [Марье Ильин[ишне]]
+    doc. 14 p. 50  9/4    key ъ, printed р   Марье    [Марье Ильин[ишне]]
+    doc. 14 p. 50  5/7    key л, printed ь   Марье    [Марье Ильин[ишне]]
+    doc. 24 p. 59  35/5   key и, printed ю   spelling [Майский листок готов, … готовы к его пол]
+    doc. 24 p. 59  5/16   key п, printed в   compilers [Псков, Завеличье, дом Ветровой]
+    doc. 24 p. 59  3/2    key а, printed о   spelling [Лепешинского]
+    doc. 73 p. 112  19/2   key о, printed а   single   [Полтава]
+    doc. 73 p. 113  8/4    key ъ, printed н   single   [Арбат, магазин Келер]
+    doc. 73 p. 113  10/9   key г, printed ю   compilers [Устинью Яковлевну Топову]
+    doc. 73 p. 113  7/3    key л, printed н   compilers [Доноди]
+    doc. 73 p. 113  10/9   key г, printed и   compilers [Доноди]
+    doc. 80 p. 118  6/6    key м, printed о   single   [на постановку типографии]
+    doc. 80 p. 118  8/6    key а, printed р   single   [на постановку типографии]
+    doc. 80 p. 118  8/7    key в, printed а   single   [на постановку типографии]
+    doc. 80 p. 118  8/7    key в, printed а   single   [земля для дома и средства на постройки]
+    doc. 200 p. 243  3/5    key б, printed т   stretch  [Петербургский Международный Коммерческий]
+    doc. 200 p. 243  1/4    key з, printed е   stretch  [Петербургский Международный Коммерческий]
+    doc. 200 p. 243  4/3    key е, printed р   stretch  [Петербургский Международный Коммерческий]
+    doc. 200 p. 243  2/6    key р, printed б   stretch  [Петербургский Международный Коммерческий]
+    doc. 200 p. 243  2/5    key м, printed у   stretch  [Петербургский Международный Коммерческий]
+    doc. 200 p. 243  22/4   key у, printed р   stretch  [Петербургский Международный Коммерческий]
+    doc. 200 p. 243  2/59   key ѣ, printed с   stretch  [Петербургский Международный Коммерческий]
+    doc. 200 p. 243  2/12   key ъ, printed ж   single   [Петербургский Международный Коммерческий]
+    doc. 200 p. 243  11/25  key д, printed р   single   [Петербургский Международный Коммерческий]
+    doc. 200 p. 243  8/15   key р, printed е   single   [Петербургский Международный Коммерческий]
+    doc. 200 p. 243  5/10   key у, printed к   single   [Петербургский Международный Коммерческий]
+    doc. 200 p. 243  10/9   key г, printed м   single   [Петербургский Международный Коммерческий]
+    doc. 200 p. 243  8/2    key ѣ, printed в   single   [Петербургский Международный Коммерческий]
+    doc. 200 p. 243  35/4   key к, printed т   single   [the same address (second copy, «Bis»)]
+    doc. 200 p. 243  17/21  key д, printed н   single   [the same address (second copy, «Bis»)]
+    doc. 200 p. 243  8/15   key р, printed е   single   [the same address (second copy, «Bis»)]
+    doc. 200 p. 243  5/1    key т, printed н   single   [the same address (second copy, «Bis»)]
+    doc. 200 p. 243  16/3   key о, printed м   single   [the same address (second copy, «Bis»)]
+cells of the square in use: 81 of 100, plus 3/12, 8/12
+cells where the poem differs from Sinelnikov's square or fills a gap in it (uses agreeing / uses):
+     4/5  poem у, square е   0 / 0
+     5/7  poem л, square и   0 / 1
+     5/8  poem ы, square empty   0 / 0
+     5/9  poem в, square empty   0 / 0
+     5/10 poem у, square empty   0 / 1
+     6/7  poem ъ, square empty   2 / 2
+     6/8  poem в, square empty   0 / 0
+     6/9  poem о, square empty   0 / 0
+     6/10 poem з, square empty   0 / 0
+     7/2  poem ѣ, square а   3 / 4
+     7/3  poem л, square н   1 / 2
+     7/9  poem а, square empty   0 / 0
+     7/10 poem с, square empty   0 / 0
+     9/10 poem а, square empty   0 / 0
+    10/9  poem г, square и   0 / 3
+    10/10 poem о, square empty   0 / 0
+Sinelnikov's square: 89 cells filled, 84 of them the letter of the poem
+cells of Sinelnikov's square that no printed pair uses: 3/4, 3/10, 4/4, 4/5, 4/7, 4/10, 8/10, 10/4, 10/7, 10/8
+Sinelnikov's square on the same pairs: 514 of 555
+pairs 3/12 and 8/12: 6; without the twelfth-letter exception the poem gives 510 of 555
+control, the square begun at line 2 to 16: 15, 21, 31, 9, 17, 30, 24, 41, 41, 34, 3, 20, 29, 11, 4 of 555
+control, hard signs not counted: 346 of 555

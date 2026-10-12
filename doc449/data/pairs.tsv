@@ -1,0 +1,21 @@
+# Number pairs in document no. 449 of «Переписка В. И. Ленина и редакции газеты „Искра“ с
+# социал-демократическими организациями в России. 1900–1903 гг.», vol. 2 (Moscow, 1969), pp. 10–11:
+# P. N. Lepeshinsky, Pskov, to the editors of Iskra, before 6 June (24 May) 1902.
+# A pair a.b is line a, letter b. Tokens that are not pairs (Ф, the dash, 30) are printed so in the
+# edition, in clear.
+# RUN is the run of pairs that closes the letter, which the edition prints without a reading (p. 11).
+# W1–W7 are the names that the edition prints in italics, with the pairs given in its footnotes
+# (p. 10, note ***; p. 11, note *) as deciphered by N. K. Krupskaya.
+# expected: for W1–W7, the letters of the name the edition prints, one for each pair, with * where a
+#   pair is spare (the footnote has more pairs than the name has letters) and the clear token
+#   repeated in its place. For RUN, the reading proposed here, with * for the first two pairs,
+#   which are not explained.
+id	page	word in the edition	expected	tokens
+W1	10	Ольг[ой] Бор[исовной]	ольгбор	9.2 3.2 6.9 9.10 17.3 18.4 6.13
+W2	10	Жоржу	жоржу**	11.3 4.2 9.1 11.1 6.3 3.7 15.2
+W3	11	Варде	варде	15.1 13.2 14.3 8.3 8.2
+W4	11	Елизав[еты] Вас[ильевны]	елизаввас	3.3 3.2 17.2 14.1 13.2 12.10 6.6 12.2 5.3
+W5	11	Горн	горн	17.1 5.7 14.3 6.2
+W6	11	Уфу	*уФу**	18.6 15.11 Ф 16.6 7.4 9.22
+W7	11	Носков[а]	носков	8.6 7.13 5.3 9.4 14.6 6.6
+RUN	11	(left in cipher)	**якобрихтерхолФорд—сквер30пентонвиллондонвс	10.2 2.2 1.6 2.5 11.4 2.3 15.3 9.5 19.1 10.1 3.3 21.2 3.1 19.2 5.4 Ф 17.5 9.1 22.10 — 2.4 9.4 16.1 20.2 15.3 30 21.1 1.2 4.1 17.1 4.4 13.1 6.6 1.8 13.5 18.5 19.4 14.1 14.10 19.4 2.11 1.11 21.4

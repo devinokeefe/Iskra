@@ -1,0 +1,9 @@
+__pycache__/
+.ruff_cache/
+# local environments and settings
+.venv/
+venv/
+.vscode/
+.DS_Store
+# what interrupted runs leave behind
+*.part

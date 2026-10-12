@@ -1,0 +1,69 @@
+# Checks the list of files and the style of the scripts, runs the checks of the three parts and the
+# mutation test, and compares what the scripts print with the records in runs/, under Linux and under
+# Windows with Python 3.12, and under Linux with Python 3.10, the oldest version the scripts support.
+# The search over other texts for document 15 is not repeated: its collection is not in the repository,
+# and its record is runs/corpus_control.txt.
+#
+# The versions of the runners and of ruff are fixed, because a new version of ruff can bring a new rule.
+name: check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+# bash with pipefail: in "script | diff", a script that fails must fail the step
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  files:
+    name: list of files and style
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install ruff
+        run: pip install ruff==0.15.1
+      - name: The files are the listed ones, and the list is complete
+        run: |
+          sha256sum -c --quiet SHA256SUMS.txt
+          bash tools/make_sums.sh
+          git diff --exit-code -- SHA256SUMS.txt
+      - name: Style of the Python files
+        run: |
+          ruff check .
+          ruff format --check .
+
+  checks:
+    name: checks and records, ${{ matrix.os }}, Python ${{ matrix.python }}
+    strategy:
+      matrix:
+        include:
+          - os: ubuntu-24.04
+            python: "3.12"
+          - os: windows-2025
+            python: "3.12"
+          - os: ubuntu-24.04
+            python: "3.10"
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python }}
+      - name: The checks of the three parts
+        run: python check.py | diff - runs/check.txt
+      - name: What the three scripts print
+        run: |
+          python doc449/code/decode.py | diff - runs/doc449.txt
+          python bauman/code/check.py | diff - runs/bauman.txt
+          python doc15/code/decode.py | diff - runs/doc15.txt
+      - name: The mutation test
+        run: python tests/mutation_test.py | diff - runs/mutation_test.txt
